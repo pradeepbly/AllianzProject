@@ -1,0 +1,36 @@
+fastapi
+mangum
+boto3
+pydantic
+uvicorn
+
+{
+  "vpc_cidr": "192.168.0.0/24",
+  "subnet_count": 4,
+  "public_subnet_count": 2,
+  "vpc_tags": [
+    {
+      "Key": "Name",
+      "Value": "MyVpc"
+    }
+  ],
+  "subnet_tags": [
+    {
+      "Key": "Name",
+      "Value": "Publicsubnet01"
+    },
+    {
+      "Key": "Name",
+      "Value": "Publicsubnet02"
+    },
+    {
+      "Key": "Name",
+      "Value": "Privatesubnet01"
+    },
+    {
+      "Key": "Name",
+      "Value": "Privatesubnet02"
+    }
+  ],
+  "region": "us-east-2"
+}

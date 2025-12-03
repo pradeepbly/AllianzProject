@@ -1,0 +1,7 @@
+boto3
+moto
+pytest
+fastapi
+httpx
+pytest-env
+pytest-asyncio
