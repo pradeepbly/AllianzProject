@@ -5,7 +5,7 @@ This project provides an API to manage AWS VPC resources (Create, Read, Update, 
 The solution leverages FastAPI deployed on AWS Lambda, exposed via API Gateway v2 (HTTP API), secured by Amazon Cognito JWT Authorizer, and stores metadata in DynamoDB.
 Infrastructure is provisioned and managed using Terraform.
 
-![Uploading VPC-Automation.png…]()
+![Architecture](VPC-Automation.png)
 
 
 ## Features
