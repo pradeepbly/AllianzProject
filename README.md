@@ -1,11 +1,11 @@
-<img width="1061" height="680" alt="VPC-Automation" src="https://github.com/user-attachments/assets/5c97beb9-689a-4ecf-9131-b7966bf3fff9" />AWS VPC API Service
+AWS VPC API Service
 Terraform | AWS Lambda | API Gateway | Cognito | DynamoDB | FastAPI
 
 This project provides an API to manage AWS VPC resources (Create, Read, Update, Delete) using a serverless architecture.
 The solution leverages FastAPI deployed on AWS Lambda, exposed via API Gateway v2 (HTTP API), secured by Amazon Cognito JWT Authorizer, and stores metadata in DynamoDB.
 Infrastructure is provisioned and managed using Terraform.
 
-![Uploading VPC-Automation.png…]()
+![Architecture](VPC-Automation.png)
 
 
 ## Features
