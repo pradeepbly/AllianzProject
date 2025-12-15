@@ -4,7 +4,7 @@
         {
             "Effect": "Allow",
             "Action": "logs:CreateLogGroup",
-            "Resource": "arn:aws:logs:ap-south-1:272620162075:*"
+            "Resource": "arn:aws:logs:us-east-1:138252615415:*"
         },
         {
             "Effect": "Allow",
@@ -36,7 +36,7 @@
                 "logs:PutLogEvents"
             ],
             "Resource": [
-                "arn:aws:logs:ap-south-1:272620162075:log-group:/aws/lambda/ManageVpcApi:*"
+                "arn:aws:logs:us-east-1:138252615415:log-group:/aws/lambda/ManageVpcApi:*"
             ]
         },
         {
@@ -48,7 +48,7 @@
                 "dynamodb:Scan",
                 "dynamodb:UpdateItem"
             ],
-            "Resource": "arn:aws:dynamodb:ap-south-1:272620162075:table/vpc_resource_table"
+            "Resource": "arn:aws:dynamodb:us-east-1:138252615415:table/vpc_resource_table"
         }
     ]
 }
